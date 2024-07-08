@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/images/pexels-fotografiagmazg-7377687.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menubar {
+  border: 2px solid black;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menubar ul {
+  display: flex;
+  list-style: none;
+}
+
+.menubar ul li {
+  padding: 15px 20px;
+}
+
+.menubar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+
+.menubar ul li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
